@@ -1,0 +1,115 @@
+/* html css */
+
+/* Struggling to make the html / body fill the height of the page.
+tried to make the height: 100%
+Tried to make the position absolute for html, then give a top and bottom of 0px */
+html {
+    height: 100%;
+    position: relative;
+}
+
+body {
+    background-image: url("./assets/images/white-waves.png");
+    height: 100%;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: 10px;
+    line-height: 50px;
+}
+p, a {
+    color: #777777;
+}
+.container-fluid {
+padding-left: 0px;
+padding-right: 0px;
+}
+
+#container {
+    height: 100%;
+}
+
+/* tried changing the color of the button to teal but wasn't able to */
+/* button .btn {
+    background-color: #4aaaa5;
+} */
+/* Header css */
+header {
+    background-color: white;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+    text-align: center;
+    margin: 0px;
+}
+
+header h1 a {
+    color: white;
+}
+
+header #head {
+    border-bottom: .5px solid #d6d6d6;
+}
+
+/* #navbar {
+    float: right;
+} */
+/* header .navbar {
+    padding: 0px;
+}
+
+header #h_name {
+    padding: 0px;
+} */
+
+
+/* body css */
+section {
+    background-color: white;
+    border: .5px solid #d6d6d6;
+}
+
+section h2{
+    color: #4aaaa5;
+    padding-bottom: 1rem;
+}
+
+section .row .col img {
+    width: 200px;
+    height: 200px;
+    margin-right: 2rem;
+}
+section .row img {
+    width: 200px;
+    height: 200px;
+    /* margin-right: 3rem;
+    margin-bottom: 4rem; */
+}
+
+.wolf{
+    text-align: center;
+    position:absolute;
+    bottom: 5px;
+    z-index: 1;
+    left: 0px;
+    right:0px;
+    background-color:#4aaaa5;
+    height: 25px;
+}
+
+#body h2{
+    border-bottom: 2px solid #d6d6d6;
+}
+/* footer css */
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+footer, #fnav{
+    background-color: #666666;
+    border-top: 2px solid #4aaaa5;
+}

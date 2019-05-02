@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background-image: url("./assets/images/white-waves.png");
+    background-color: white;
     height: 100%;
 }
 
@@ -78,16 +78,13 @@ section h2{
 }
 
 section .row .col img {
+    width: 30%;
+    height: 30%;
+}
+/* section .row img {
     width: 200px;
     height: 200px;
-    margin-right: 2rem;
-}
-section .row img {
-    width: 200px;
-    height: 200px;
-    /* margin-right: 3rem;
-    margin-bottom: 4rem; */
-}
+} */
 
 .wolf{
     text-align: center;
@@ -104,12 +101,3 @@ section .row img {
     border-bottom: 2px solid #d6d6d6;
 }
 /* footer css */
-footer {
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
-footer, #fnav{
-    background-color: #666666;
-    border-top: 2px solid #4aaaa5;
-}
